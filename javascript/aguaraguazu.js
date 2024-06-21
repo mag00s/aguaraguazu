@@ -24,3 +24,14 @@ function prevImage() {
 
 // Initial display
 showImage(currentIndex);
+
+// Zoom functionality
+document.querySelectorAll('.carousel-img').forEach(img => {
+    img.addEventListener('click', () => {
+        if (img.style.transform === 'scale(2)') {
+            img.style.transform = 'scale(1)';
+        } else {
+            img.style.transform = 'scale(2)';
+        }
+    });
+});
