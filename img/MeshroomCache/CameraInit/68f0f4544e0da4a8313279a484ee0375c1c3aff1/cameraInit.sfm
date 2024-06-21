@@ -1,0 +1,280 @@
+{
+    "version": [
+        "1",
+        "2",
+        "6"
+    ],
+    "views": [
+        {
+            "viewId": "556155238",
+            "poseId": "556155238",
+            "frameId": "5",
+            "intrinsicId": "189358974",
+            "path": "D:\/Curso\/POO\/aguaraguazu\/img\/5.jpg",
+            "width": "900",
+            "height": "600",
+            "metadata": {
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1076463224",
+            "poseId": "1076463224",
+            "intrinsicId": "1204168274",
+            "path": "D:\/Curso\/POO\/aguaraguazu\/img\/araguazu.jpg",
+            "width": "1024",
+            "height": "1024",
+            "metadata": {
+                "ResolutionUnit": "in",
+                "XResolution": "96",
+                "YResolution": "96",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1431935430",
+            "poseId": "1431935430",
+            "frameId": "4",
+            "intrinsicId": "4276401038",
+            "path": "D:\/Curso\/POO\/aguaraguazu\/img\/4.jpg",
+            "width": "750",
+            "height": "742",
+            "metadata": {
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1596641939",
+            "poseId": "1596641939",
+            "frameId": "3",
+            "intrinsicId": "138718917",
+            "path": "D:\/Curso\/POO\/aguaraguazu\/img\/3.jpg",
+            "width": "670",
+            "height": "670",
+            "metadata": {
+                "IPTC:ObjectName": "Maned wolf (Chrysocyon brachyurus)",
+                "IPTC:Rating": "5",
+                "ImageDescription": "Maned wolf (Chrysocyon brachyurus)",
+                "MicrosoftPhoto:Rating": "99",
+                "ResolutionUnit": "in",
+                "XResolution": "96",
+                "YResolution": "96",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB",
+                "rdf:about": "uuid:faf5bdd5-ba3d-11da-ad31-d33d75182f1b"
+            }
+        },
+        {
+            "viewId": "1718780739",
+            "poseId": "1718780739",
+            "frameId": "1",
+            "intrinsicId": "1307918821",
+            "path": "D:\/Curso\/POO\/aguaraguazu\/img\/1.jpg",
+            "width": "1245",
+            "height": "1731",
+            "metadata": {
+                "ResolutionUnit": "in",
+                "XResolution": "72",
+                "YResolution": "72",
+                "jpeg:subsampling": "4:2:0",
+                "oiio:ColorSpace": "sRGB"
+            }
+        },
+        {
+            "viewId": "1993475243",
+            "poseId": "1993475243",
+            "frameId": "2",
+            "intrinsicId": "2176687209",
+            "path": "D:\/Curso\/POO\/aguaraguazu\/img\/2.jpg",
+            "width": "530",
+            "height": "555",
+            "metadata": {
+                "oiio:ColorSpace": "sRGB"
+            }
+        }
+    ],
+    "intrinsics": [
+        {
+            "intrinsicId": "138718917",
+            "width": "670",
+            "height": "670",
+            "sensorWidth": "36",
+            "sensorHeight": "24",
+            "serialNumber": "D:\/Curso\/POO\/aguaraguazu\/img",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "initialFocalLength": "-1",
+            "focalLength": "43.45584412271571",
+            "pixelRatio": "1",
+            "pixelRatioLocked": "true",
+            "principalPoint": [
+                "0",
+                "0"
+            ],
+            "distortionInitializationMode": "none",
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "undistortionOffset": [
+                "0",
+                "0"
+            ],
+            "undistortionParams": "",
+            "locked": "false"
+        },
+        {
+            "intrinsicId": "189358974",
+            "width": "900",
+            "height": "600",
+            "sensorWidth": "36",
+            "sensorHeight": "24",
+            "serialNumber": "D:\/Curso\/POO\/aguaraguazu\/img",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "initialFocalLength": "-1",
+            "focalLength": "43.45584412271571",
+            "pixelRatio": "1",
+            "pixelRatioLocked": "true",
+            "principalPoint": [
+                "0",
+                "0"
+            ],
+            "distortionInitializationMode": "none",
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "undistortionOffset": [
+                "0",
+                "0"
+            ],
+            "undistortionParams": "",
+            "locked": "false"
+        },
+        {
+            "intrinsicId": "1204168274",
+            "width": "1024",
+            "height": "1024",
+            "sensorWidth": "36",
+            "sensorHeight": "24",
+            "serialNumber": "D:\/Curso\/POO\/aguaraguazu\/img",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "initialFocalLength": "-1",
+            "focalLength": "43.45584412271571",
+            "pixelRatio": "1",
+            "pixelRatioLocked": "true",
+            "principalPoint": [
+                "0",
+                "0"
+            ],
+            "distortionInitializationMode": "none",
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "undistortionOffset": [
+                "0",
+                "0"
+            ],
+            "undistortionParams": "",
+            "locked": "false"
+        },
+        {
+            "intrinsicId": "1307918821",
+            "width": "1245",
+            "height": "1731",
+            "sensorWidth": "36",
+            "sensorHeight": "24",
+            "serialNumber": "D:\/Curso\/POO\/aguaraguazu\/img",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "initialFocalLength": "-1",
+            "focalLength": "60.419330262185454",
+            "pixelRatio": "1",
+            "pixelRatioLocked": "true",
+            "principalPoint": [
+                "0",
+                "0"
+            ],
+            "distortionInitializationMode": "none",
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "undistortionOffset": [
+                "0",
+                "0"
+            ],
+            "undistortionParams": "",
+            "locked": "false"
+        },
+        {
+            "intrinsicId": "2176687209",
+            "width": "530",
+            "height": "555",
+            "sensorWidth": "36",
+            "sensorHeight": "24",
+            "serialNumber": "D:\/Curso\/POO\/aguaraguazu\/img",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "initialFocalLength": "-1",
+            "focalLength": "45.505648090768339",
+            "pixelRatio": "1",
+            "pixelRatioLocked": "true",
+            "principalPoint": [
+                "0",
+                "0"
+            ],
+            "distortionInitializationMode": "none",
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "undistortionOffset": [
+                "0",
+                "0"
+            ],
+            "undistortionParams": "",
+            "locked": "false"
+        },
+        {
+            "intrinsicId": "4276401038",
+            "width": "750",
+            "height": "742",
+            "sensorWidth": "36",
+            "sensorHeight": "24",
+            "serialNumber": "D:\/Curso\/POO\/aguaraguazu\/img",
+            "type": "radial3",
+            "initializationMode": "unknown",
+            "initialFocalLength": "-1",
+            "focalLength": "43.45584412271571",
+            "pixelRatio": "1",
+            "pixelRatioLocked": "true",
+            "principalPoint": [
+                "0",
+                "0"
+            ],
+            "distortionInitializationMode": "none",
+            "distortionParams": [
+                "0",
+                "0",
+                "0"
+            ],
+            "undistortionOffset": [
+                "0",
+                "0"
+            ],
+            "undistortionParams": "",
+            "locked": "false"
+        }
+    ]
+}

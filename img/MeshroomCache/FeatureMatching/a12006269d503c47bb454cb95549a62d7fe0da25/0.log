@@ -1,0 +1,91 @@
+[2024-06-21 04:13:49.130838] [0x0000b080] [trace]   Embedded OCIO configuration file: 'D:\Downloads\Meshroom-2023.3.0-win64\Meshroom-2023.3.0\aliceVision/share/aliceVision/config.ocio' found.
+Program called with the following parameters:
+ * crossMatching = 0
+ * describerTypes = "dspsift"
+ * distanceRatio = 0.8
+ * exportDebugFiles = 0
+ * featuresFolders =  = [D:/Curso/POO/aguaraguazu/img/MeshroomCache/FeatureExtraction/1c658397c7b01cb42d571137e690fce6bc971bec]
+ * geometricError = 0
+ * geometricEstimator =  Unknown Type "enum aliceVision::robustEstimation::ERobustEstimator"
+ * geometricFilterType = "fundamental_matrix"
+ * guidedMatching = 0
+ * imagePairsList =  = [D:/Curso/POO/aguaraguazu/img/MeshroomCache/ImageMatching/ef1a2a2e63a7012953e3371784e1208ef5821156/imageMatches.txt]
+ * input = "D:/Curso/POO/aguaraguazu/img/MeshroomCache/CameraInit/68f0f4544e0da4a8313279a484ee0375c1c3aff1/cameraInit.sfm"
+ * knownPosesGeometricErrorMax = 5
+ * matchFilePerImage = 0 (default)
+ * matchFromKnownCameraPoses = 0
+ * maxCoresAvailable =  Unknown Type "unsigned int" (default)
+ * maxIteration = 2048
+ * maxMatches = 0
+ * maxMemoryAvailable = 18446744073709551615 (default)
+ * minRequired2DMotion = -1
+ * output = "D:/Curso/POO/aguaraguazu/img/MeshroomCache/FeatureMatching/a12006269d503c47bb454cb95549a62d7fe0da25"
+ * photometricMatchingMethod = "ANN_L2"
+ * randomSeed = 5489 (default)
+ * rangeSize = 20
+ * rangeStart = 0
+ * savePutativeMatches = 0
+ * useGridSort = 1 (default)
+ * verboseLevel = "info"
+
+Hardware : 
+	Detected core count : 12
+	OpenMP will use 12 cores
+	Detected available memory : 2978 Mo
+
+[04:13:49.141791][info] Load pair list from file: D:/Curso/POO/aguaraguazu/img/MeshroomCache/ImageMatching/ef1a2a2e63a7012953e3371784e1208ef5821156/imageMatches.txt
+[04:13:49.143835][info] loadPairs: image pair (556155238, 1076463224) added.
+[04:13:49.143835][info] loadPairs: image pair (556155238, 1431935430) added.
+[04:13:49.143835][info] loadPairs: image pair (556155238, 1596641939) added.
+[04:13:49.143835][info] loadPairs: image pair (556155238, 1718780739) added.
+[04:13:49.143835][info] loadPairs: image pair (556155238, 1993475243) added.
+[04:13:49.143835][info] loadPairs: image pair (1076463224, 1431935430) added.
+[04:13:49.143835][info] loadPairs: image pair (1076463224, 1596641939) added.
+[04:13:49.143835][info] loadPairs: image pair (1076463224, 1718780739) added.
+[04:13:49.143835][info] loadPairs: image pair (1076463224, 1993475243) added.
+[04:13:49.143835][info] loadPairs: image pair (1431935430, 1596641939) added.
+[04:13:49.143835][info] loadPairs: image pair (1431935430, 1718780739) added.
+[04:13:49.143835][info] loadPairs: image pair (1431935430, 1993475243) added.
+[04:13:49.143835][info] loadPairs: image pair (1596641939, 1718780739) added.
+[04:13:49.143835][info] loadPairs: image pair (1596641939, 1993475243) added.
+[04:13:49.143835][info] loadPairs: image pair (1718780739, 1993475243) added.
+[04:13:49.143835][info] Number of pairs: 15
+[04:13:49.143835][info] There are 6 views and 15 image pairs.
+[04:13:49.143835][info] Load features and descriptors
+Loading regions
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[04:13:49.326716][info] Putative matches (unknown poses): 15 image pairs.
+[04:13:49.326716][info] dspsift Regions Matching
+
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[04:13:52.155519][info] 15 putative image pair matches
+[04:13:52.155519][info] 	- image pair (556155238, 1076463224) contains 67 putative matches.
+[04:13:52.155519][info] 	- image pair (556155238, 1431935430) contains 52 putative matches.
+[04:13:52.155519][info] 	- image pair (556155238, 1596641939) contains 32 putative matches.
+[04:13:52.155519][info] 	- image pair (556155238, 1718780739) contains 111 putative matches.
+[04:13:52.156525][info] 	- image pair (556155238, 1993475243) contains 27 putative matches.
+[04:13:52.156525][info] 	- image pair (1076463224, 1431935430) contains 46 putative matches.
+[04:13:52.156525][info] 	- image pair (1076463224, 1596641939) contains 23 putative matches.
+[04:13:52.156525][info] 	- image pair (1076463224, 1718780739) contains 107 putative matches.
+[04:13:52.156525][info] 	- image pair (1076463224, 1993475243) contains 13 putative matches.
+[04:13:52.156525][info] 	- image pair (1431935430, 1596641939) contains 25 putative matches.
+[04:13:52.156525][info] 	- image pair (1431935430, 1718780739) contains 150 putative matches.
+[04:13:52.156525][info] 	- image pair (1431935430, 1993475243) contains 16 putative matches.
+[04:13:52.156525][info] 	- image pair (1596641939, 1718780739) contains 41 putative matches.
+[04:13:52.156525][info] 	- image pair (1596641939, 1993475243) contains 15 putative matches.
+[04:13:52.156525][info] 	- image pair (1718780739, 1993475243) contains 20 putative matches.
+[04:13:52.156525][info] Task (Regions Matching) done in (s): 2.829000
+[04:13:52.156525][info] Geometric filtering: using fundamental_matrix
+Robust Model Estimation
+0%   10   20   30   40   50   60   70   80   90   100%
+|----|----|----|----|----|----|----|----|----|----|
+***************************************************
+[04:13:52.467933][info] 0 geometric image pair matches:
+[04:13:52.467933][info] Grid filtering
+[04:13:52.467933][info] After grid filtering:
+[04:13:52.467933][info] Save geometric matches.
+[04:13:52.472932][info] Task done in (s): 0.317000

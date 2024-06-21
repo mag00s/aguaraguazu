@@ -1,0 +1,80 @@
+[2024-06-21 04:13:30.375523] [0x00005f7c] [trace]   Embedded OCIO configuration file: 'D:\Downloads\Meshroom-2023.3.0-win64\Meshroom-2023.3.0\aliceVision/share/aliceVision/config.ocio' found.
+Program called with the following parameters:
+ * contrastFiltering =  Unknown Type "enum aliceVision::feature::EFeatureConstrastFiltering"
+ * describerPreset =  Unknown Type "enum aliceVision::feature::EImageDescriberPreset"
+ * describerQuality =  Unknown Type "enum aliceVision::feature::EFeatureQuality"
+ * describerTypes = "dspsift"
+ * forceCpuExtraction = 1
+ * gridFiltering = 1
+ * input = "D:/Curso/POO/aguaraguazu/img/MeshroomCache/CameraInit/68f0f4544e0da4a8313279a484ee0375c1c3aff1/cameraInit.sfm"
+ * maskExtension = "png"
+ * maskInvert = 0
+ * masksFolder = ""
+ * maxCoresAvailable =  Unknown Type "unsigned int" (default)
+ * maxMemoryAvailable = 18446744073709551615 (default)
+ * maxNbFeatures = 0 (default)
+ * maxThreads = 0
+ * output = "D:/Curso/POO/aguaraguazu/img/MeshroomCache/FeatureExtraction/1c658397c7b01cb42d571137e690fce6bc971bec"
+ * rangeSize = 40
+ * rangeStart = 0
+ * relativePeakThreshold = 0.02 (default)
+ * verboseLevel = "info"
+ * workingColorSpace =  Unknown Type "enum aliceVision::image::EImageColorSpace"
+
+Hardware : 
+	Detected core count : 12
+	OpenMP will use 12 cores
+	Detected available memory : 2548 Mo
+
+[04:13:30.386488][info] CUDA-Enabled GPU.
+Device information:
+	- id:                      0
+	- name:                    NVIDIA GeForce GTX 1050
+	- compute capability:      6.1
+	- clock frequency (kHz):   1493000
+	- total device memory:     4095 MB 
+	- device memory available: 3359 MB 
+	- per-block shared memory: 49152
+	- warp size:               32
+	- max threads per block:   1024
+	- max threads per SM(X):   2048
+	- max block sizes:         {1024,1024,64}
+	- max grid sizes:          {2147483647,65535,65535}
+	- max 2D array texture:    {131072,65536}
+	- max 3D array texture:    {16384,16384,16384}
+	- max 2D linear texture:   {131072,65000,2097120}
+	- max 2D layered texture:  {32768,32768,2048}
+	- number of SM(x)s:        5
+	- registers per SM(x):     65536
+	- registers per block:     65536
+	- concurrent kernels:      yes
+	- mapping host memory:     yes
+	- unified addressing:      yes
+	- texture alignment:       512 byte
+	- pitch alignment:         32 byte
+CUDA build version: 11.6
+0
+[04:13:31.135953][info] Job max memory consumption for one image: 667 MB
+[04:13:31.135953][info] Memory information: 
+	- Total RAM:     15.8543 GB
+	- Free RAM:      2.41734 GB
+	- Available RAM: 2.41734 GB
+	- Total swap:    131072 GB
+	- Free swap:     131039 GB
+[04:13:31.135953][info] Max number of threads regarding memory usage: 3
+[04:13:31.135953][warning] More than half of the RAM is used by other applications. It would be more efficient to close them.
+[04:13:31.135953][warning]  => 13 GB are used by other applications for a total RAM capacity of 16 GB.
+[04:13:31.135953][info] # threads for extraction: 3
+[04:13:31.282023][info] Extracting dspsift features from view 'D:/Curso/POO/aguaraguazu/img/4.jpg' [cpu]
+[04:13:31.291550][info] Extracting dspsift features from view 'D:/Curso/POO/aguaraguazu/img/5.jpg' [cpu]
+[04:13:31.328658][info] Extracting dspsift features from view 'D:/Curso/POO/aguaraguazu/img/1.jpg' [cpu]
+[04:13:35.231083][info]       11268 dspsift features extracted from view 'D:/Curso/POO/aguaraguazu/img/4.jpg'
+[04:13:35.261766][info] Extracting dspsift features from view 'D:/Curso/POO/aguaraguazu/img/3.jpg' [cpu]
+[04:13:35.500702][info]       11912 dspsift features extracted from view 'D:/Curso/POO/aguaraguazu/img/5.jpg'
+[04:13:35.549433][info] Extracting dspsift features from view 'D:/Curso/POO/aguaraguazu/img/araguazu.jpg' [cpu]
+[04:13:39.145156][info]       13761 dspsift features extracted from view 'D:/Curso/POO/aguaraguazu/img/3.jpg'
+[04:13:42.962866][info]       13204 dspsift features extracted from view 'D:/Curso/POO/aguaraguazu/img/araguazu.jpg'
+[04:13:45.952304][info]       20000 dspsift features extracted from view 'D:/Curso/POO/aguaraguazu/img/1.jpg'
+[04:13:46.051627][info] Extracting dspsift features from view 'D:/Curso/POO/aguaraguazu/img/2.jpg' [cpu]
+[04:13:47.391696][info]       5998 dspsift features extracted from view 'D:/Curso/POO/aguaraguazu/img/2.jpg'
+[04:13:47.392694][info] Task done in (s): 16.257000

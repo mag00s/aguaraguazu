@@ -1,0 +1,18 @@
+{
+    "status": "ERROR",
+    "execMode": "LOCAL",
+    "nodeName": "StructureFromMotion_1",
+    "nodeType": "StructureFromMotion",
+    "packageName": "aliceVision",
+    "packageVersion": null,
+    "graph": "",
+    "commandLine": "aliceVision_incrementalSfM  --input \"D:/Curso/POO/aguaraguazu/img/MeshroomCache/CameraInit/68f0f4544e0da4a8313279a484ee0375c1c3aff1/cameraInit.sfm\" --featuresFolders \"D:/Curso/POO/aguaraguazu/img/MeshroomCache/FeatureExtraction/1c658397c7b01cb42d571137e690fce6bc971bec\" --matchesFolders \"D:/Curso/POO/aguaraguazu/img/MeshroomCache/FeatureMatching/a12006269d503c47bb454cb95549a62d7fe0da25\" --describerTypes dspsift --localizerEstimator acransac --observationConstraint Scale --localizerEstimatorMaxIterations 4096 --localizerEstimatorError 0.0 --lockScenePreviouslyReconstructed False --useLocalBA True --localBAGraphDistance 1 --nbFirstUnstableCameras 30 --maxImagesPerGroup 30 --bundleAdjustmentMaxOutliers 50 --maxNumberOfMatches 0 --minNumberOfMatches 0 --minInputTrackLength 2 --minNumberOfObservationsForTriangulation 2 --minAngleForTriangulation 3.0 --minAngleForLandmark 2.0 --maxReprojectionError 4.0 --minAngleInitialPair 5.0 --maxAngleInitialPair 40.0 --useOnlyMatchesFromInputFolder False --useRigConstraint True --rigMinNbCamerasForCalibration 20 --lockAllIntrinsics False --minNbCamerasToRefinePrincipalPoint 3 --filterTrackForks False --computeStructureColor True --useAutoTransform True --initialPairA \"\" --initialPairB \"\" --interFileExtension .abc --logIntermediateSteps False --verboseLevel info --output \"D:/Curso/POO/aguaraguazu/img/MeshroomCache/StructureFromMotion/74a390b17ae8e0dd0ee9885aeb8f3a4979f95048/sfm.abc\" --outputViewsAndPoses \"D:/Curso/POO/aguaraguazu/img/MeshroomCache/StructureFromMotion/74a390b17ae8e0dd0ee9885aeb8f3a4979f95048/cameras.sfm\" --extraInfoFolder \"D:/Curso/POO/aguaraguazu/img/MeshroomCache/StructureFromMotion/74a390b17ae8e0dd0ee9885aeb8f3a4979f95048\"",
+    "env": null,
+    "startDateTime": "2024-06-21 04:16:52.832821",
+    "endDateTime": "",
+    "elapsedTime": 0,
+    "hostname": "Thee1",
+    "sessionUid": "96009b00-2f73-11ef-89bd-a0a4c56e279d",
+    "returnCode": 1,
+    "elapsedTimeStr": "0:00:00"
+}
